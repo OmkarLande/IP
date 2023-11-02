@@ -1,0 +1,49 @@
+input{
+    max-width: 300px;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    margin: 0%;
+    padding: 0%;
+}
+.name{
+    display: flex;
+    flex-direction: row;
+    
+}
+.gender{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+form{
+    background-image: linear-gradient(to right, rgb(30, 93, 145) , rgb(197, 55, 205));
+    padding: 50px;
+    margin: 30px;
+    border-radius: 20px;
+    width: fit-content;
+}
+label{
+    color: aliceblue;
+    
+}
+
+h1{
+    color: rgb(19, 26, 126);
+}
+.butts{
+    margin: 0px 5px 0px 0px;
+}
+.butts:hover{
+    background-color: black !important;
+}
+h1:hover{
+    background: -webkit-linear-gradient( rgb(64, 11, 133),rgb(90, 18, 84));
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+}
+
